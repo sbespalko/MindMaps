@@ -580,8 +580,7 @@
       &lt;property name=&quot;criticismEngine&quot; ref=&quot;criticismEngine&quot; /&gt; &lt;/bean&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1492092725122" ID="ID_274133098" MODIFIED="1494260586185" TEXT="factory-method=&quot;aspectOf&quot;">
@@ -1332,7 +1331,7 @@
 </html></richcontent>
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1493794590831" ID="ID_325968940" MODIFIED="1493794596032" TEXT="&lt;context: property-placeholder&gt;">
+<node COLOR="#00b439" CREATED="1493794590831" ID="ID_325968940" MODIFIED="1494927532733" TEXT="&lt;context: property-placeholder&gt;">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1493794598830" ID="ID_412321004" MODIFIED="1493794657450" TEXT="&#x433;&#x434;&#x435; &#x43b;&#x435;&#x436;&#x438;&#x442; &#x444;&#x430;&#x439;&#x43b; &#x441;&#x432;&#x43e;&#x439;&#x441;&#x442;&#x432; &#x434;&#x43b;&#x44f; context">
@@ -2497,6 +2496,61 @@
 <node COLOR="#0033ff" CREATED="1492156566293" ID="ID_748401687" LINK="Spring%20MVC.mm" MODIFIED="1492156566298" POSITION="right" TEXT="Spring MVC">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1494927554032" ID="ID_1919741351" MODIFIED="1494928402524" POSITION="right" TEXT="validation / conversion">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1494927580920" ID="ID_179195701" MODIFIED="1494928235148" TEXT="&#x43f;&#x440;&#x435;&#x43e;&#x431;&#x440;&#x430;&#x437;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;/&#x444;&#x43e;&#x440;&#x43c;&#x430;&#x442;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1494927637674" ID="ID_1581587292" MODIFIED="1494927641890" TEXT="SPI">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1494927654187" ID="ID_59142979" MODIFIED="1494927654187" TEXT="service provider interface"/>
+</node>
+<node COLOR="#990000" CREATED="1494927686920" ID="ID_1754756255" MODIFIED="1494927814548" TEXT="PropertyEditor &#x438; &#x43f;&#x430;&#x442;&#x442;&#x435;&#x440;&#x43d;&#x44b; &#x43f;&#x430;&#x440;&#x441;&#x438;&#x43d;&#x433;&#x430;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1494927731640" ID="ID_1249376223" MODIFIED="1494927788848" TEXT="&#x41d;&#x430;&#x43f;&#x440;&#x438;&#x43c;&#x435;&#x440;, String in Date (dd-mm-yyyy)">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1494927800065" ID="ID_978773360" MODIFIED="1494927821460" TEXT="org.springframework.core.convert">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1494927840138" ID="ID_657095194" MODIFIED="1494927840139" TEXT="converter.Converter&lt;S, &#x422;&gt;"/>
+<node COLOR="#111111" CREATED="1494927887195" ID="ID_240589518" MODIFIED="1494927887195" TEXT="ConversionService"/>
+<node COLOR="#111111" CREATED="1494928114954" ID="ID_1822012854" MODIFIED="1494928114954" TEXT="context.support"/>
+</node>
+<node COLOR="#990000" CREATED="1494928239315" ID="ID_608346762" MODIFIED="1494928239316" TEXT="org. springframework. format. Formatter&lt;T&gt;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1494928321578" ID="ID_1528665584" MODIFIED="1494928321578" TEXT="FormattingConversionService"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1494927592048" ID="ID_1297165617" MODIFIED="1494928390437" TEXT="&#x446;&#x435;&#x43d;&#x442;&#x440;&#x430;&#x43b;&#x438;&#x437;&#x43e;&#x432;&#x430;&#x43d;&#x43d;&#x430;&#x44f; &#x432;&#x430;&#x43b;&#x438;&#x434;&#x430;&#x446;&#x438;&#x44f;">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1494927562172" ID="ID_1257153683" MODIFIED="1494927644904" TEXT="javax.validation">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1494927567707" ID="ID_1035085855" MODIFIED="1494927644904" TEXT="&#x411;&#x438;&#x431;&#x43b;&#x438;&#x43e;&#x442;&#x435;&#x43a;&#x430; &#x410;&#x420;l-&#x438;&#x43d;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441;&#x430; JSR-349">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1494928473673" ID="ID_1487389368" MODIFIED="1494928473674" TEXT="constraints">
+<node COLOR="#111111" CREATED="1494928475152" ID="ID_80883550" MODIFIED="1494928479566" TEXT="@NotNull"/>
+<node COLOR="#111111" CREATED="1494928484256" ID="ID_1908026483" MODIFIED="1494928487868" TEXT="@Size"/>
+<node COLOR="#111111" CREATED="1494928693993" ID="ID_423326135" MODIFIED="1494928693993" TEXT="@AssertTrue"/>
+<node COLOR="#111111" CREATED="1494928702602" ID="ID_1849634392" MODIFIED="1494928702602" TEXT="@AssertFalse"/>
+<node COLOR="#111111" CREATED="1494928735211" ID="ID_763651636" MODIFIED="1494928735211" TEXT="@Valid"/>
+</node>
+<node COLOR="#111111" CREATED="1494928516938" ID="ID_886278160" MODIFIED="1494928519180" TEXT="beanvalidation.LocalValidatorFactoryBean"/>
+<node COLOR="#111111" CREATED="1494928613292" ID="ID_1210384815" MODIFIED="1494928613292" TEXT=".Payload"/>
+</node>
+<node COLOR="#990000" CREATED="1494927663729" ID="ID_598563369" MODIFIED="1494927663729" TEXT="JSR-349">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1494928386817" ID="ID_1734743915" MODIFIED="1494928386818" TEXT="org.springframework.validation">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
 </node>
 </node>
 </map>

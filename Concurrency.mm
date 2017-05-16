@@ -502,7 +502,7 @@
 <node COLOR="#111111" CREATED="1491597164898" ID="ID_96356746" MODIFIED="1491599236518" TEXT="return a result">
 <edge COLOR="#111111" WIDTH="thin"/>
 </node>
-<node COLOR="#111111" CREATED="1491597350866" ID="ID_1710909904" MODIFIED="1491769150952" TEXT="find max">
+<node COLOR="#111111" CREATED="1491597350866" ID="ID_1710909904" MODIFIED="1494928895052" TEXT="find max">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -692,7 +692,8 @@
       }
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <edge COLOR="#111111" WIDTH="thin"/>
 </node>
 </node>
@@ -1805,7 +1806,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1491574823211" ID="ID_1215669467" MODIFIED="1491599245273" POSITION="right" TEXT="ThreadLocalRandom.current().nextX">
+<node COLOR="#0033ff" CREATED="1491574823211" ID="ID_1215669467" MODIFIED="1494928906053" POSITION="right" TEXT="ThreadLocalRandom.current().nextX">
 <edge COLOR="#0033ff" STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1491574825540" ID="ID_237724663" MODIFIED="1491599245286" TEXT="&#x434;&#x43b;&#x44f; &#x440;&#x430;&#x43d;&#x434;&#x43e;&#x43c;&#x43e;&#x432; &#x432; &#x43f;&#x43e;&#x442;&#x43e;&#x43a;&#x430;&#x445;. &#x43d;&#x435; &#x431;&#x43b;&#x43e;&#x43a;&#x438;&#x440;&#x443;&#x435;&#x442;">
